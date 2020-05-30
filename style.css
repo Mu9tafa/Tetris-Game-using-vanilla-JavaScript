@@ -1,0 +1,49 @@
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+button {
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    background-color: yellow;
+    border: 2px solid tomato;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+.grid {
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+.tetromino {
+    background-color: blue;
+}
+.mini-grid {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+}
